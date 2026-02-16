@@ -1,4 +1,4 @@
-# SafePush 🛡️✨
+# VibeSafePush 🛡️✨
 
 **Your friendly neighborhood CLI for keeping secrets out of your code.**
 
@@ -35,7 +35,7 @@ SafePush is an educational tool designed for "vibe coders," beginners, and anyon
 No installation needed! Just run it directly in your project folder using `npx`.
 
 ```bash
-npx safe-push
+npx vibe-safe-push
 ```
 
 Or, if you've cloned the repository:
