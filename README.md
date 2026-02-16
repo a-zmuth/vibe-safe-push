@@ -50,7 +50,7 @@ node index.js
 --- Welcome to SafePush! 🛡️ ---
 💡 A friendly tool to help you avoid committing secrets to your code.
 💡 Running in free mode. For advanced scanning, unlock premium features.
-👉 Run `npx safe-push --unlock` to begin.
+👉 Run `npx vibe-safe-push --unlock` to begin.
 
 --- Running Free Scan ✨ ---
 
@@ -91,7 +91,7 @@ After your transaction is confirmed on the Solana network, you'll need two piece
 Run the following command in your terminal:
 
 ```bash
-npx safe-push --unlock
+npx vibe-safe-push --unlock
 ```
 
 The CLI will prompt you to enter the two pieces of information from Step 2.
