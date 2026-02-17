@@ -1,6 +1,6 @@
 {
   "name": "vibe-safe-push",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beginner-friendly CLI to learn about accidental sensitive data exposure.",
   "main": "index.js",
   "bin": {
