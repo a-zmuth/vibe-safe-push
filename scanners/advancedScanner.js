@@ -31,8 +31,8 @@ async function advancedScanner() {
 # A basic pre-commit hook to run safe-push before committing.
 #
 
-echo "Running safe-push scan before commit..."
-npx safe-push
+echo "Running vibe-safe-push scan before commit..."
+npx vibe-safe-push
 
 # If the scan fails (exits with a non-zero code), prevent the commit
 if [ $? -ne 0 ]; then

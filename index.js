@@ -104,7 +104,7 @@ async function main() {
     logger.success('Premium features are enabled. Running full scan.');
   } else {
     logger.info('Running in free mode. For advanced scanning, unlock premium features.');
-    logger.link('Run `npx safe-push --unlock` to begin.');
+    logger.link('Run `npx vibe-safe-push --unlock` to begin.');
   }
 
   await basicScanner();
