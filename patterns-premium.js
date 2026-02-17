@@ -1,5 +1,4 @@
-// Advanced patterns for the premium scan.
-// These are more specific and cover a wider range of sensitive data.
+
 
 const premiumPatterns = [
   {

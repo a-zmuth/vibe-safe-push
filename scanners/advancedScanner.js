@@ -22,7 +22,7 @@ async function advancedScanner() {
     }
   }
 
-  // Offer pre-commit hook template
+
   logger.info('As a premium user, you can use a pre-commit hook to automate these checks.');
   logger.log('To set it up, create a file at .git/hooks/pre-commit and add this content:');
   const hookScript = `

@@ -1,5 +1,4 @@
-// Basic patterns for the free scan.
-// These are simple, common patterns that are easy for beginners to understand.
+
 
 const basicPatterns = [
   {

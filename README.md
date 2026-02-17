@@ -2,9 +2,9 @@
 
 **Your friendly neighborhood CLI for keeping secrets out of your code.**
 
-SafePush is an educational tool designed for "vibe coders," beginners, and anyone who wants a simple, friendly way to learn about the dangers of accidental sensitive data exposure. It scans your local files for common secrets and credentials, teaching you *why* they're dangerous and how to handle them.
+VibeSafePush is an educational tool designed for "vibe coders," beginners, and anyone who wants a simple, friendly way to learn about the dangers of accidental sensitive data exposure. It scans your local files for common secrets and credentials, teaching you *why* they're dangerous and how to handle them.
 
-![SafePush Demo](https://i.imgur.com/your-demo-image.gif) <!-- Placeholder for a cool demo GIF -->
+![VibeSafePush Demo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnhvaW84Yzd1aDkxOHhiOTdhdm5lcWtoMDA2NndsOG5ocjUzaTdlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif) 
 
 ---
 

@@ -1,5 +1,4 @@
-// ⚠️ IMPORTANT: Replace with your actual Solana wallet address.
-// This is the address where users will send their donation.
+
 const RECIPIENT_WALLET_ADDRESS = 'GgANeKwJecCMPhna9HvZCtELUCg3c6snJZsqi8vx2JqW';
 
 // A free, public Solana RPC endpoint.

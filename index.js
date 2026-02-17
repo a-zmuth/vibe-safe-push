@@ -90,7 +90,7 @@ async function verifyDonation() {
 async function main() {
   const args = minimist(process.argv.slice(2));
 
-  logger.log(chalk.bold.magenta('--- Welcome to SafePush! 🛡️ ---'));
+  logger.log(chalk.bold.magenta('--- Welcome to VibeSafePush! 🛡️ ---'));
   logger.info('A friendly tool to help you avoid committing secrets to your code.');
 
   if (args.unlock) {
