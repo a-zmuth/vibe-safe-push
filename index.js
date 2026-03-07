@@ -92,6 +92,28 @@ async function main() {
 
   logger.log(chalk.bold.magenta('--- Welcome to VibeSafePush! 🛡️ ---'));
   logger.info('A friendly tool to help you avoid committing secrets to your code.');
+  logger.log('');
+  
+  logger.header('🌟 Feature Comparison:');
+  logger.log(chalk.cyan('--------------------------------------------'));
+  logger.log(`${chalk.bold('🆓 FREE FEATURES:')}`);
+  logger.log('  ✅ .env file detection');
+  logger.log('  ✅ node_modules detection');
+  logger.log('  ✅ Generic API Key scanning');
+  logger.log('  ✅ Google API Key scanning');
+  logger.log('  ✅ Stripe API Key scanning');
+  logger.log('');
+  logger.log(`${chalk.bold('💎 PREMIUM FEATURES:')}`);
+  logger.log('  ✅ AWS Access/Secret Key scanning');
+  logger.log('  ✅ Firebase Config scanning');
+  logger.log('  ✅ JWT & Private Key scanning');
+  logger.log('  ✅ OAuth 2.0 Client Secret scanning');
+  logger.log(`  ✅ ${chalk.green('Database Connection String scanning (MongoDB, SQL, etc.)')}`);
+  logger.log(`  ✅ ${chalk.green('Insecure Database Query (SELECT *) scanning')}`);
+  logger.log(`  ✅ ${chalk.green('Hardcoded Database Password scanning')}`);
+  logger.log('  ✅ Automated git pre-commit hook');
+  logger.log(chalk.cyan('--------------------------------------------'));
+  logger.log('');
 
   if (args.unlock) {
     await verifyDonation();

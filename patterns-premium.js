@@ -31,6 +31,21 @@ const premiumPatterns = [
     regex: /client_secret\s*=\s*['"]?[a-zA-Z0-9_.-]+['"]?/,
     explanation: 'Found an OAuth 2.0 Client Secret. This secret is used to authenticate your application with an OAuth provider.',
   },
+  {
+    name: 'Database Connection String',
+    regex: /(mongodb(?:\+srv)?|postgres(?:ql)?|mysql|redis|sqlite):\/\/[^\s'"]+/i,
+    explanation: 'Found a database connection string. Exposing these in your code can allow unauthorized access to your entire database.',
+  },
+  {
+    name: 'Insecure Database Query',
+    regex: /SELECT\s+\*\s+FROM\s+/i,
+    explanation: 'Found a broad SQL query (SELECT *). This is a bad practice that can lead to leaking more data than necessary, potentially exposing sensitive fields from your database.',
+  },
+  {
+    name: 'Hardcoded Database Password',
+    regex: /DB_PASSWORD\s*=\s*['"]?.+['"]?/i,
+    explanation: 'Found a hardcoded database password. Use environment variables instead to keep your database credentials secure.',
+  },
 ];
 
 module.exports = premiumPatterns;

@@ -19,11 +19,15 @@ VibeSafePush is an educational tool designed for "vibe coders," beginners, and a
 
 ### 💎 Premium Features (Unlockable via Donation)
 
-- **Advanced Secret Scanning:** Hunts for more complex and specific patterns, including:
+- **Advanced Secret & Security Scanning:** Hunts for more complex and specific patterns, including:
   - AWS Keys (Access Key ID & Secret)
   - Firebase Configs
   - JWTs (JSON Web Tokens)
   - Private Key blocks (`-----BEGIN RSA PRIVATE KEY-----`)
+  - **Database Connection Strings:** Detects MongoDB, PostgreSQL, MySQL, Redis, and SQLite URIs that could leak your entire database.
+  - **Insecure Query Detection:** Flags broad SQL queries like `SELECT *` that may accidentally expose sensitive table data.
+  - **Hardcoded DB Passwords:** Identifies hardcoded database credentials.
+- **Feature Transparency:** Displays a clear comparison of active vs. locked features right at startup.
 - **Verbose Output:** Provides more detail on potential vulnerabilities.
 - **Pre-commit Hook Template:** Gives you a ready-to-use Git hook to automate scans before every commit.
 - **Support the Project:** Your donation helps keep this tool alive and growing!
